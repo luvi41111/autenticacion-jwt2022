@@ -20,8 +20,8 @@ export default class TblValoresCriterio extends BaseModel {
   public CRITERIO_ID:number
 
   @column.dateTime({ autoCreate: true })
-  public CREATEDAT: DateTime
+  public CREATED_AT: DateTime
 
   @column.dateTime({ autoCreate: true, autoUpdate: true })
-  public UPDATEDAT: DateTime
+  public UPDATED_AT: DateTime
 }

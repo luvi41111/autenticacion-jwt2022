@@ -62,8 +62,8 @@ export default class TblBeneficiario extends BaseModel {
   public ESTADO_ID:number
 
   @column.dateTime({ autoCreate: true })
-  public CREADEDAT: DateTime
+  public CREATED_AT: DateTime
 
   @column.dateTime({ autoCreate: true, autoUpdate: true })
-  public UPDATEDAT: DateTime
+  public UPDATED_AT: DateTime
 }

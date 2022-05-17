@@ -13,8 +13,8 @@ export default class TblEstado extends BaseModel {
   public DESCRIPCION:string
 
   @column.dateTime({ autoCreate: true })
-  public CREATEDAT: DateTime
+  public CREATED_AT: DateTime
 
   @column.dateTime({ autoCreate: true, autoUpdate: true })
-  public UPDATEDAT: DateTime
+  public UPDATED_AT: DateTime
 }
