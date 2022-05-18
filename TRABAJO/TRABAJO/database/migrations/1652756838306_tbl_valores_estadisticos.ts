@@ -5,7 +5,7 @@ export default class TblValoresEstadisticos extends BaseSchema {
 
   public async up () {
     this.schema.alterTable(this.tableName, (table) => {
-      table.integer('PROYECTO_ID').references('TBL_VALORES_ESTADISTICOS.ID').onDelete('CASCADE').notNullable();
+      table.integer('PROYECTO_ID').references('TBL_PROYECTOS.ID').onDelete('CASCADE').notNullable();
 
      
 

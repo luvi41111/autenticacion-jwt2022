@@ -5,9 +5,9 @@ export default class TblCriterios extends BaseSchema {
 
   public async up () {
     this.schema.alterTable(this.tableName, (table) => {
-      table.integer('ESTADO_ID').references('TBL_CRITERIOS.ID').onDelete('CASCADE').notNullable();
-      table.integer('TIPO_CRITERIO_ID').references('TBL_CRITERIOS.ID').onDelete('CASCADE').notNullable();
-      table.integer('CATEGORIA_CRITERO_ID').references('TBL_CRITERIOS.ID').onDelete('CASCADE').notNullable();
+      table.integer('ESTADO_ID').references('TBL_ESTADOS.ID').onDelete('CASCADE').notNullable();
+      table.integer('TIPO_CRITERIO_ID').references('TBL_TIPOS_CRITERIOS.ID').onDelete('CASCADE').notNullable();
+      table.integer('CATEGORIA_CRITERO_ID').references('TBL_CATEGORIAS_CRITEROS.ID').onDelete('CASCADE').notNullable();
     })
   }
 

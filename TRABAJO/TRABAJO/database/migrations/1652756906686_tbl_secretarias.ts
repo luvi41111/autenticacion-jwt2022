@@ -5,7 +5,7 @@ export default class TblSecretarias extends BaseSchema {
 
   public async up () {
     this.schema.alterTable(this.tableName, (table) => {
-      table.integer('ESTADO_ID').references('TBL_SECRETARIAS.ID').onDelete('CASCADE').notNullable();
+      table.integer('ESTADO_ID').references('TBL_ESTADOS.ID').onDelete('CASCADE').notNullable();
 
       
       
