@@ -8,7 +8,7 @@ export default class TblProyectoSeeder extends BaseSeeder {
       {
         ID: 1,
         COD_PROYECTO: '200332',
-        NOMBRE: 'Fortalecimiento de la Alcaldía como Institución Abierta y Cercana a la Gente',
+        NOMBRE: 'Fortalecimiento de la alcaldía como institución abierta y cercana a la gente',
         SECRETARIA_ID: 1,
         ESTADO_ID: 1,
         CREATED_AT: new Date(),
@@ -16,193 +16,167 @@ export default class TblProyectoSeeder extends BaseSeeder {
       },
       {
         ID: 2,
-        COD_PROYECTO: '200410',
-        NOMBRE: 'Fortalecimiento y Encuentro de Procesos y Medios Alternativos, Independientes, Comunitarios y Ciudadanos',
-        SECRETARIA_ID: 2,
+        COD_PROYECTO: '200345',
+        NOMBRE: 'Administración de la unidad de cumplimiento de los proyectos estratégicos del municipio de medellín',
+        SECRETARIA_ID: 1,
         ESTADO_ID: 1,
         CREATED_AT: new Date(),
         UPDATED_AT: new Date()
       },
       {
         ID: 3,
-        COD_PROYECTO: '200428',
-        NOMBRE: 'Mejoramiento del Sistema de Control Interno Desde el Proceso de Auditoría Interna en Medellín',
-        SECRETARIA_ID: 3,
+        COD_PROYECTO: '200366',
+        NOMBRE: 'Fortalecimiento del conglomerado y el gobierno corporativo en el municipio de medellín',
+        SECRETARIA_ID: 1,
         ESTADO_ID: 1,
         CREATED_AT: new Date(),
         UPDATED_AT: new Date()
       },
       {
         ID: 4,
-        COD_PROYECTO: '200256',
-        NOMBRE: 'Mordenización Digital de la Hacienda Pública',
-        SECRETARIA_ID: '4',
+        COD_PROYECTO: '200410',
+        NOMBRE: 'Fortalecimiento y encuentro de procesos y medios alternativos, independientes, comunitarios y ciudadanos',
+        SECRETARIA_ID: 2,
         ESTADO_ID: 1,
         CREATED_AT: new Date(),
         UPDATED_AT: new Date()
       },
       {
         ID: 5,
-        COD_PROYECTO: '200215',
-        NOMBRE: 'Fortalecimiento en la Prevención del Daño Antijurídico y la Defensa Jurídica',
-        SECRETARIA_ID: 5,
+        COD_PROYECTO: '220023',
+        NOMBRE: '22pp99- Fortalecimiento de los procesos y medios de comunicación comunitarios',
+        SECRETARIA_ID: 2,
         ESTADO_ID: 1,
         CREATED_AT: new Date(),
         UPDATED_AT: new Date()
       },
       {
         ID: 6,
-        COD_PROYECTO: '200189',
-        NOMBRE: 'Administración del Centro de Prácticas',
-        SECRETARIA_ID: 6,
+        COD_PROYECTO: '200365',
+        NOMBRE: 'Asesoría en estrategias comunicacionales para la divulgación del plan de desarrollo',
+        SECRETARIA_ID: 2,
         ESTADO_ID: 1,
         CREATED_AT: new Date(),
         UPDATED_AT: new Date()
       },
       {
         ID: 7,
-        COD_PROYECTO: '200347',
-        NOMBRE: 'Administración del Abastecimiento Innovador, Sostenible y Social del Municipio',
-        SECRETARIA_ID: '7',
+        COD_PROYECTO: '200359',
+        NOMBRE: 'Fortalecimiento de redes ciudadanas y de dependencias en estrategias para la movilización y la participación',
+        SECRETARIA_ID: 2,
         ESTADO_ID: 1,
         CREATED_AT: new Date(),
         UPDATED_AT: new Date()
       },
       {
         ID: 8,
-        COD_PROYECTO: '200377',
-        NOMBRE: 'Mejoram Compa Comunic en Ingle',
-        SECRETARIA_ID: 8,
+        COD_PROYECTO: '200428',
+        NOMBRE: 'Mejoramiento del sistema de control interno desde el proceso de auditoría interna en medellín',
+        SECRETARIA_ID: 3,
         ESTADO_ID: 1,
         CREATED_AT: new Date(),
         UPDATED_AT: new Date()
       },
       {
         ID: 9,
-        COD_PROYECTO: '200251',
-        NOMBRE: 'Asistencia Técnica y Acompañamiento a Organizaciones y Redes Sociales',
-        SECRETARIA_ID: 9,
+        COD_PROYECTO: '200256',
+        NOMBRE: 'Modernización digital de la hacienda pública',
+        SECRETARIA_ID: 4,
         ESTADO_ID: 1,
         CREATED_AT: new Date(),
         UPDATED_AT: new Date()
       },
       {
         ID: 10,
-        COD_PROYECTO: '200081',
-        NOMBRE: 'Implementación de Estrategias de Economía Creativa y Cultural',
-        SECRETARIA_ID: 10,
+        COD_PROYECTO: '040320',
+        NOMBRE: 'Acuerdo metro',
+        SECRETARIA_ID: 4,
         ESTADO_ID: 1,
         CREATED_AT: new Date(),
         UPDATED_AT: new Date()
       },
       {
         ID: 11,
-        COD_PROYECTO: '200389',
-        NOMBRE: 'Fortalecimiento del Servicio de Atención Integral a Madres Gestantes y Lactantes',
-        SECRETARIA_ID: 11,
+        COD_PROYECTO: '200122',
+        NOMBRE: 'Aportes al área metropolitana del valle de aburrá',
+        SECRETARIA_ID: 4,
         ESTADO_ID: 1,
         CREATED_AT: new Date(),
         UPDATED_AT: new Date()
       },
       {
         ID: 12,
-        COD_PROYECTO: '200191',
-        NOMBRE: 'Desarrollo de la Estrategia Medellín Me Cuida Salud',
-        SECRETARIA_ID: 12,
+        COD_PROYECTO: '200139',
+        NOMBRE: 'Aplicación de estrategias para la gestión financiera',
+        SECRETARIA_ID: 4,
         ESTADO_ID: 1,
         CREATED_AT: new Date(),
         UPDATED_AT: new Date()
       },
       {
         ID: 13,
-        COD_PROYECTO: '200075',
-        NOMBRE: 'Implementación del Programa de Alimentación Escolar-Pae',
-        SECRETARIA_ID: 13,
+        COD_PROYECTO: '200173',
+        NOMBRE: 'Administración del recaudo y la cartera morosa',
+        SECRETARIA_ID: 4,
         ESTADO_ID: 1,
         CREATED_AT: new Date(),
         UPDATED_AT: new Date()
       },
-      
       {
         ID: 14,
-        COD_PROYECTO: '200306',
-        NOMBRE: 'Implementación de Estrategias para Transformar Imaginarios Culturales Sexistas',
-        SECRETARIA_ID: 14,
+        COD_PROYECTO: '200219',
+        NOMBRE: 'Optimización de los excedentes de liquidez',
+        SECRETARIA_ID: 4,
         ESTADO_ID: 1,
         CREATED_AT: new Date(),
         UPDATED_AT: new Date()
       },
-      
       {
         ID: 15,
-        COD_PROYECTO: '200166',
-        NOMBRE: 'Asesoría en Salud para Jóvenes Vulnerables-Emancipados',
-        SECRETARIA_ID: 15,
+        COD_PROYECTO: '200289',
+        NOMBRE: 'Asistencia técnica a la gestión de la hacienda pública',
+        SECRETARIA_ID: 4,
         ESTADO_ID: 1,
         CREATED_AT: new Date(),
         UPDATED_AT: new Date()
       },
-      
       {
         ID: 16,
-        COD_PROYECTO: '200082',
-        NOMBRE: 'Construcción de Paz a Través del Arte y la Cultura',
-        SECRETARIA_ID: 16,
+        COD_PROYECTO: '200294',
+        NOMBRE: 'Fortalecimiento y control de los ingresos tributarios y no tributarios',
+        SECRETARIA_ID: 4,
         ESTADO_ID: 1,
         CREATED_AT: new Date(),
         UPDATED_AT: new Date()
       },
-      
       {
         ID: 17,
-        COD_PROYECTO: '200292',
-        NOMBRE: 'Fortalecimiento de Estrategias de Gobierno Efectivo en el Territorio',
-        SECRETARIA_ID: 17,
+        COD_PROYECTO: '200311',
+        NOMBRE: 'Apoyo a la calidad de la información contable',
+        SECRETARIA_ID: 4,
         ESTADO_ID: 1,
         CREATED_AT: new Date(),
         UPDATED_AT: new Date()
       },
-      
       {
         ID: 18,
-        COD_PROYECTO: '200281',
-        NOMBRE: 'Administración del Espacio Público para el Disfrute de la Ciudadanía',
-        SECRETARIA_ID: 18,
+        COD_PROYECTO: '200215',
+        NOMBRE: 'Fortalecimiento en la prevención del daño antijurídico y la defensa jurídica',
+        SECRETARIA_ID: 5,
         ESTADO_ID: 1,
         CREATED_AT: new Date(),
         UPDATED_AT: new Date()
       },
-      
       {
         ID: 19,
-        COD_PROYECTO: '200227',
-        NOMBRE: 'Desarrollo de Estrategias de Reducción del Riesgo',
-        SECRETARIA_ID: 19,
+        COD_PROYECTO: '200216',
+        NOMBRE: 'Mejoramiento de herramientas para la información jurídica',
+        SECRETARIA_ID: 5,
         ESTADO_ID: 1,
         CREATED_AT: new Date(),
         UPDATED_AT: new Date()
       },
-      
-      {
-        ID: 20,
-        COD_PROYECTO: '200079',
-        NOMBRE: 'Rehabilitación e Intervención Parque Biblioteca Zona Nororiental',
-        SECRETARIA_ID: 20,
-        ESTADO_ID: 1,
-        CREATED_AT: new Date(),
-        UPDATED_AT: new Date()
-      },
-      
-      // {
-      //   ID: ,
-      //   COD_PROYECTO: '',
-      //   NOMBRE: '',
-      //   SECRETARIA_ID: ,
-      //   ESTADO_ID: 1,
-      //   CREATED_AT: new Date(),
-      //   UPDATED_AT: new Date()
-      // },
-      
+     
     ];
 
     await Database
