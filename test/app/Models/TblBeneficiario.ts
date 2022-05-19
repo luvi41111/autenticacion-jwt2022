@@ -67,3 +67,4 @@ export default class TblBeneficiario extends BaseModel {
   @column.dateTime({ autoCreate: true, autoUpdate: true })
   public UPDATED_AT: DateTime
 }
+
