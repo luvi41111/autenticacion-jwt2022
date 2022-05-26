@@ -10,7 +10,7 @@ export default class TblBeneficiarios extends BaseSchema {
       table.string('PRIMER_NOMBRE',45).nullable();
       table.string('SEGUNDO_NOMBRE',45).nullable();
       table.string('PRIMER_APELLIDO',45).nullable();
-      table.string('SEGUNTO_APELLIDO',45).nullable();
+      table.string('SEGUNDO_APELLIDO',45).nullable();
       table.string('COD_GENERO',45).nullable();
       table.string('COD_ETNIA',45).nullable();
       table.string('ORIENTACION_SEXUAL',45).nullable();

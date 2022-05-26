@@ -1,5 +1,6 @@
 import { DateTime } from 'luxon'
-import { BaseModel, column } from '@ioc:Adonis/Lucid/Orm'
+import { BaseModel, column, HasMany, hasMany} from '@ioc:Adonis/Lucid/Orm'
+import  TblBeneficiosBeneficiario from 'App/Models/TblBeneficiosBeneficiario'
 
 export default class TblBeneficiario extends BaseModel {
   public static table='TBL_BENEFICIARIOS'
@@ -17,7 +18,7 @@ export default class TblBeneficiario extends BaseModel {
   public PRIMER_APELLIDO:string
 
   @column()
-  public SEGUNTO_APELLIDO:string
+  public SEGUNDO_APELLIDO:string
 
   @column()
   public COD_GENERO:string
@@ -66,5 +67,9 @@ export default class TblBeneficiario extends BaseModel {
 
   @column.dateTime({ autoCreate: true, autoUpdate: true })
   public UPDATED_AT: DateTime
+
+
+  @hasMany(() => TblBeneficiosBeneficiario)
+  public  TblBeneficiosBeneficiario : HasMany<typeof TblBeneficiosBeneficiario>
 }
 

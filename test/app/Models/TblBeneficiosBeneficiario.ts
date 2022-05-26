@@ -1,5 +1,6 @@
 import { DateTime } from 'luxon'
-import { BaseModel, column } from '@ioc:Adonis/Lucid/Orm'
+import { BaseModel, BelongsTo, belongsTo, column, HasOne, hasOne } from '@ioc:Adonis/Lucid/Orm'
+import TblBeneficiario from 'App/Models/TblBeneficiario'
 
 export default class TblBeneficiosBeneficiario extends BaseModel {
   public static table='TBL_BENEFICIOS_BENEFICIARIOS'
@@ -39,4 +40,7 @@ export default class TblBeneficiosBeneficiario extends BaseModel {
 
   @column.dateTime({ autoCreate: true, autoUpdate: true })
   public UPDATED_AT: DateTime
+
+  @hasOne(() => TblBeneficiario)
+  public  TblBeneficiario : HasOne<typeof TblBeneficiario>
 }
